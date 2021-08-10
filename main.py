@@ -4,10 +4,12 @@ import json
 import time
 import requests
 from bs4 import BeautifulSoup
- 
+
+# 账号信息
 USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
 TOKEN = ""
+# 代理设置
 PROXIES = {
     "http": "http://127.0.0.1:10808",
     "https": "http://127.0.0.1:10808"
